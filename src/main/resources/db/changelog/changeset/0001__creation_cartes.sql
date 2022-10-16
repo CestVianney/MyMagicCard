@@ -28,3 +28,8 @@ CREATE TABLE carteseditionsrelation(
     fk_cerelat_card INTEGER REFERENCES cartes_param(cpam_id) NOT NULL,
     fk_cerelat_edi VARCHAR(20) REFERENCES editions(edi_diminutif) NOT NULL
 );
+
+CREATE TABLE listecartesnoms(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(5000)
+);
