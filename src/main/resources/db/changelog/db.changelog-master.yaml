@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/0001__creation_cartes.sql
+  - include:
+      file: db/changelog/changeset/0002__insert_data_edition_cartes.sql
+  - include:
+      file: db/changelog/changeset/0003__user_base.sql
+  - include:
+      file: db/changelog/changeset/0004__decks_db.sql

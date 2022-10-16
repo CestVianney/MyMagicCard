@@ -1,0 +1,16 @@
+springfox:
+  documentation:
+    enabled: true
+spring:
+  application:
+    name: Cartes
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cartes
+    username: carte
+    password: carte
+  messages:
+    basename: messages/messages
